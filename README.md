@@ -22,3 +22,5 @@ Once everything seems good, run the build script which will compile and run the 
 
 Everything should start compiling and if compiled successfully, should get a message that your bot joined the game:
 ``<bots email> joined Nexus! ObjectID: 50194``
+
+Also, there seems to be some nasty bug that causes clients to reach 100% CPU usage on the main thread when reconnecting sometimes. Not sure why this happens. I suspect it could be some sort of deadlock? If you know or experience it, let me know as I'm quite curious.
