@@ -5,7 +5,7 @@
 	"game_version":"X32.4.1",
 	"thread_delay_ms":1000,
 	"factory_delay_ms":2,
-	"factory_stack_size_kb":1,
-	"client_thread_stack_size_kb":1,
+	"factory_stack_size_kb":32,
+	"client_thread_stack_size_kb":64,
 	"save_delay_secs":180
 }
