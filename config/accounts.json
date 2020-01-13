@@ -1,0 +1,26 @@
+[
+    {
+        "email": "account1@some.com",
+        "password": "password1",
+        "server_ip": "18.218.255.91",
+        "fetch_new_data": false,
+        "char_id": 1,
+        "module": "nil",
+        "use_socks": false,
+        "socks_proxy": "127.0.0.1:1085",
+        "use_http": false,
+        "http_proxy": "http://127.0.0.1:8085"
+    },
+    {
+        "email": "account2@some.com",
+        "password": "password1",
+        "server_ip": "18.218.255.91",
+        "fetch_new_data": false,
+        "char_id": 1,
+        "module": "nil",
+        "use_socks": false,
+        "socks_proxy": "127.0.0.1:1085",
+        "use_http": false,
+        "http_proxy": "http://127.0.0.1:8085"
+    }
+]

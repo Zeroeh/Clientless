@@ -1,0 +1,11 @@
+{
+	"amount":1,
+	"index":0,
+	"conn_limit":17500,
+	"game_version":"X32.4.0",
+	"thread_delay_ms":1000,
+	"factory_delay_ms":2,
+	"factory_stack_size_kb":1,
+	"client_thread_stack_size_kb":1,
+	"save_delay_secs":180
+}

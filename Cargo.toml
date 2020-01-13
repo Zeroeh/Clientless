@@ -1,0 +1,9 @@
+
+[workspace]
+
+members = [
+	"realmlib",
+	"bots",
+]
+
+

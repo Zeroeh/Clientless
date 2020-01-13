@@ -1,0 +1,10 @@
+[package]
+name = "bots"
+version = "1.0.0"
+authors = ["Zeroeh"]
+edition = "2018"
+
+[dependencies]
+realmlib = { path = "../realmlib" }
+serde_json = "1.0"
+serde = { version = "1.0.104", features = ["derive"] }
