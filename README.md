@@ -1,7 +1,7 @@
 # Clientless
 A RotMG clientless bot, written in Rust
 
-I wrote this mostly to learn rust and how it works, as I already have a feature packed clientless written in Go. This project will likely be left as-is.
+I wrote this mostly to learn rust and how it works, as I already have a feature packed clientless written in Go. This project will likely be left as-is, unless I get super bored one day.
 This bot has a decent amount of functionality and can do a fair amount of tasks. Ways to extend this would be to get projectiles working as well as loading xml gamedata.
 
 Another way of extending this would be to ditch the 1:2 threading model that it uses. (Each client runs on its own thread, and spins up another thread for the networking stuff). Either an async approach and/or some sort of threadpool approach would probably be the best bet for the networking side of things.
@@ -21,6 +21,7 @@ Once everything seems good, run the build script which will compile and run the 
 ``./debug.sh`` or, for release mode: ``./release.sh``
 
 Everything should start compiling and if compiled successfully, should get a message that your bot joined the game:
+
 ``<bots email> joined Nexus! ObjectID: 50194``
 
 Also, there seems to be some nasty bug that causes clients to reach 100% CPU usage on the main thread when reconnecting sometimes. Not sure why this happens. I suspect it could be some sort of deadlock? If you know or experience it, let me know as I'm quite curious.
